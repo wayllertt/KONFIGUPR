@@ -1,6 +1,9 @@
 Задание 1
 
+```
 cat /etc/protocols | sort -k 2,2nr | head -n 5 | awk '{print $2, $1}'
+```
+****![image](https://github.com/user-attachments/assets/7314ed58-c8fc-410e-8730-365a1f1a8405)
 
 Задание 2
 
