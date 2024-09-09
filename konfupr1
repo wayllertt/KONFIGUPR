@@ -4,3 +4,14 @@ cat /etc/protocols | sort -k 2,2nr | head -n 5 | awk '{print $2, $1}'
 
 Задание 2
 
+x=input()
+print ('+', end ="")
+y=[print ('-', end='') for i in range(len(x)+2)]
+print ('+')
+print (f"|{x}|")
+print ('+', end ="")
+y=[print ('-', end='') for i in range(len(x)+2)]
+print ("+")
+
+Задание 3
+
