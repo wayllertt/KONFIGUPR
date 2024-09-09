@@ -28,3 +28,17 @@ done
 echo "+${line}+"
 echo "| ${text} |"
 echo "+${line}+"
+
+Задание 4
+
+#!/bin/bash
+
+file="$1"
+
+identifiers=$(grep -o -E '\b[a-zA-Z]*\b' "$file" | sort -u)
+
+echo "Идентификаторы:"
+echo "$identifiers"
+
+Задание 5
+
