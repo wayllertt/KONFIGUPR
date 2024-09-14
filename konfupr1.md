@@ -7,6 +7,7 @@ cat /etc/protocols | sort -k 2,2nr | head -n 5 | awk '{print $2, $1}'
 
 Задание 2
 
+```
 x=input()
 print ('+', end ="")
 y=[print ('-', end='') for i in range(len(x)+2)]
@@ -15,9 +16,11 @@ print (f"|{x}|")
 print ('+', end ="")
 y=[print ('-', end='') for i in range(len(x)+2)]
 print ("+")
+```
 
 Задание 3
 
+```
 #!/bin/bash
 
 text=$*
@@ -31,9 +34,11 @@ done
 echo "+${line}+"
 echo "| ${text} |"
 echo "+${line}+"
+```
 
 Задание 4
 
+```
 #!/bin/bash
 
 file="$1"
@@ -42,9 +47,11 @@ identifiers=$(grep -o -E '\b[a-zA-Z]*\b' "$file" | sort -u)
 
 echo "Идентификаторы:"
 echo "$identifiers"
+```
 
 Задание 5
 
+```
 #!/bin/bash
 
 file=$1
@@ -56,9 +63,11 @@ chmod 755 "./$file"
 sudo cp "$file" /usr/local/bin/
 
 echo "Файл '$file' скопирован в usr/local/bin/, права были выданы"
+```
 
 Задание 6
 
+```
 #!/bin/bash
 
 for file in *.c *.js *.py; do
@@ -70,9 +79,11 @@ for file in *.c *.js *.py; do
         echo "Файл $file не начинается с комментария"
     fi
 done
+```
 
 Задание 7
 
+```
 #!/bin/bash
 
 # Хеш-таблица
@@ -108,9 +119,11 @@ findDuplicates()
 }
 
 findDuplicates "."
+```
 
 Задание 8
 
+```
 #!/bin/bash
 
 # Ищем все файлы с заданным расширением в текущем каталоге и сохраняем их в массиве
@@ -120,9 +133,11 @@ files=( $(find . -type f -name "*.$1") )
 tar -cvf "archive.tar" "${files[@]}"
 
 echo "Архив создан"
+```
 
 Задание 9
 
+```
 #!/bin/bash
 
 # sed s/что_заменять/на_что_заменять/опции
@@ -132,9 +147,11 @@ sed 's/    /\t/g' "$1" > "$2"
 
 # Выводим сообщение об успешном завершении скрипта
 echo "Файл исправлен"
+```
 
 Задание 10
 
+```
 #!/bin/bash
 
 # sed s/что_заменять/на_что_заменять/опции
@@ -144,3 +161,4 @@ sed 's/    /\t/g' "$1" > "$2"
 
 # Выводим сообщение об успешном завершении скрипта
 echo "Файл исправлен"
+```
