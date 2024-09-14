@@ -17,6 +17,7 @@ print ('+', end ="")
 y=[print ('-', end='') for i in range(len(x)+2)]
 print ("+")
 ```
+****(![image](https://github.com/user-attachments/assets/fab90c9c-3dfa-45f3-9664-f18dd9798501)
 
 Задание 3
 
