@@ -17,7 +17,8 @@ print ('+', end ="")
 y=[print ('-', end='') for i in range(len(x)+2)]
 print ("+")
 ```
-****(![image](https://github.com/user-attachments/assets/fab90c9c-3dfa-45f3-9664-f18dd9798501)
+****![image](https://github.com/user-attachments/assets/542cbfba-8282-4708-b02d-20ebcd8d76e8)
+
 
 Задание 3
 
@@ -36,6 +37,7 @@ echo "+${line}+"
 echo "| ${text} |"
 echo "+${line}+"
 ```
+****![image](https://github.com/user-attachments/assets/29f50776-43cc-4aa2-83b7-e97a45c8a0b0)
 
 Задание 4
 
