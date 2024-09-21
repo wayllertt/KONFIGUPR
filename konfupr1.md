@@ -11,7 +11,7 @@ cat /etc/protocols | sort -k 2,2nr | head -n 5 | awk '{print $2, $1}'
 ```
 ****![image](https://github.com/user-attachments/assets/542cbfba-8282-4708-b02d-20ebcd8d76e8)
 
-Задание 
+Задание 3
 
 ```
 x=input()
@@ -23,27 +23,9 @@ print ('+', end ="")
 y=[print ('-', end='') for i in range(len(x)+2)]
 print ("+")
 ```
-****![image](https://github.com/user-attachments/assets/542cbfba-8282-4708-b02d-20ebcd8d76e8)
 
-
-Задание 3
-
-```
-#!/bin/bash
-
-text=$*
-length=${#text}
-
-# Формирование символов рамки от 1 до длины слова + 2 пробела
-for _ in $(seq 1 $((length + 2))); do
-    line+="-"
-done
-
-echo "+${line}+"
-echo "| ${text} |"
-echo "+${line}+"
-```
 ****![image](https://github.com/user-attachments/assets/29f50776-43cc-4aa2-83b7-e97a45c8a0b0)
+
 
 Задание 4
 
