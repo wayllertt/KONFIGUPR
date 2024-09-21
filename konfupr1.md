@@ -1,3 +1,7 @@
+Задание 1
+****<img width="722" alt="Снимок экрана 2024-09-21 в 4 55 29 PM" src="https://github.com/user-attachments/assets/81de3178-db57-4c8e-9994-4ae47c78abf2">
+
+
 Задание 2
 
 ```
