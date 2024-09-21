@@ -1,11 +1,11 @@
-Задание 1
+Задание 2
 
 ```
 cat /etc/protocols | sort -k 2,2nr | head -n 5 | awk '{print $2, $1}'
 ```
-****![image](https://github.com/user-attachments/assets/7314ed58-c8fc-410e-8730-365a1f1a8405)
+****![image](https://github.com/user-attachments/assets/542cbfba-8282-4708-b02d-20ebcd8d76e8)
 
-Задание 2
+Задание 
 
 ```
 x=input()
