@@ -40,6 +40,10 @@ echo "Идентификаторы:"
 echo "$identifiers"
 ```
 
+****<img width="346" alt="Снимок экрана 2024-09-29 в 5 26 43 PM" src="https://github.com/user-attachments/assets/66373aec-d9f5-44d0-9c13-e79668baed61">
+
+
+
 Задание 5
 
 ```
