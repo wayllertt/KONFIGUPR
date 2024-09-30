@@ -42,7 +42,7 @@ echo "Идентификаторы:"
 echo "$identifiers"
 ```
 
-****<img width="346" alt="Снимок экрана 2024-09-29 в 5 26 43 PM" src="https://github.com/user-attachments/assets/66373aec-d9f5-44d0-9c13-e79668baed61">
+****<img width="350" alt="Снимок экрана 2024-09-30 в 6 10 38 PM" src="https://github.com/user-attachments/assets/725a2406-c6c2-47a5-aaf3-0b8cecbb48a9">
 
 
 
