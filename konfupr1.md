@@ -9,7 +9,8 @@
 ```
 cat /etc/protocols | sort -k 2,2nr | head -n 5 | awk '{print $2, $1}'
 ```
-****<img width="788" alt="Снимок экрана 2024-09-30 в 6 08 44 PM">
+****<img width="788" alt="Снимок экрана 2024-09-30 в 6 08 44 PM" src="https://github.com/user-attachments/assets/4fbcbe5a-3f5e-46a7-ae89-b10886c00d1f">
+
 
 
 Задание 3
