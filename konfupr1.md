@@ -62,6 +62,9 @@ sudo cp "$file" /usr/local/bin/
 echo "Файл '$file' скопирован в usr/local/bin/, права были выданы"
 ```
 
+****![photo_2024-10-06 17 57 21](https://github.com/user-attachments/assets/da2f8b23-772b-4d06-97a6-23f2c2f3dfca)
+
+
 Задание 6
 
 ```
@@ -77,6 +80,9 @@ for file in *.c *.js *.py; do
     fi
 done
 ```
+
+****![photo_2024-10-06 17 57 25](https://github.com/user-attachments/assets/edb50593-d39d-4012-b593-7f74e0592b05)
+
 
 Задание 7
 
@@ -118,6 +124,9 @@ findDuplicates()
 findDuplicates "."
 ```
 
+****![photo_2024-10-06 17 57 27](https://github.com/user-attachments/assets/33480ec7-667b-40dc-aaed-36f39ae11c85)
+
+
 Задание 8
 
 ```
@@ -131,6 +140,9 @@ tar -cvf "archive.tar" "${files[@]}"
 
 echo "Архив создан"
 ```
+
+****![photo_2024-10-06 17 57 29](https://github.com/user-attachments/assets/00eefa12-2e48-48ef-9015-29a84ebab259)
+
 
 Задание 9
 
@@ -146,16 +158,4 @@ sed 's/    /\t/g' "$1" > "$2"
 echo "Файл исправлен"
 ```
 
-Задание 10
-
-```
-#!/bin/bash
-
-# sed s/что_заменять/на_что_заменять/опции
-# g - Замените все вхождения строки в файле
-# > - передача вывода второму аргументу
-sed 's/    /\t/g' "$1" > "$2"
-
-# Выводим сообщение об успешном завершении скрипта
-echo "Файл исправлен"
-```
+****![photo_2024-10-06 17 57 31](https://github.com/user-attachments/assets/a096b13f-c59c-47aa-ae5b-2d99495f9fc5)
