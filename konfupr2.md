@@ -5,9 +5,14 @@
 
 ЗАДАЧА 2
 
-
+```
 nmp install express
-"""
+```
+
+```
+npm view express
+```
+
 
 ЗАДАЧА 3
 
