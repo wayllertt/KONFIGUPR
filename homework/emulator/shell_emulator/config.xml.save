@@ -1,0 +1,7 @@
+<vfs_image>/Users/aitanalidzhievaicloud.com/Documents/vfs.tar</vfs_image>
+<config>
+  <hostname>MyMac</hostname>
+  <vfs_image>/path/to/vfs.tar</vfs_image>
+  <log_file>/path/to/log.json</log_file>
+</config>
+

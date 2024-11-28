@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <hostname>MyShellEmulator</hostname>
+    <vfs_image>/Users/aitanalidzhievaicloud.com/Desktop/shell_emulator/vfs.tar</vfs_image>
+    <log_file>/Users/aitanalidzhievaicloud.com/Desktop/shell_emulator/log.json</log_file>
+</config>
